@@ -60,3 +60,22 @@ img {
 h1 {
   font-family: 'afta_sansregular';
 }
+
+h2 {
+  font-family: 'afta_sansregular';
+  font-size: 12px;
+  text-align: center;
+}
+
+a {
+  font-family: 'afta_sansregular';
+  color: black;
+}
+
+#footer {
+  position:absolute;
+  bottom:0px;
+  background-color:#660000;
+  width:100%;
+  text-align:center
+}

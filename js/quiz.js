@@ -192,8 +192,12 @@
       }
     }
 
-    score.append('You got ' + numCorrect + ' questions out of ' +
-                 questions.length + ' right!!!');
+    if (numCorrect == 5) {
+      score.append('Goodjob Genuis.com, you got all of em. ');
+    }else {
+      score.append('You got ' + numCorrect + ' questions out of ' +
+                   questions.length + ' right!!!');
+    }
     return score;
   }
 })();

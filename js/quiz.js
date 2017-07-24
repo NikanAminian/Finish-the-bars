@@ -3,7 +3,7 @@
     question: "Who the jiggy nigga with the gold links? \
     Got me reminiscin' 'bout my old day. \
     Three 6, _____",
-    song: "../resources/jodye.mp3",
+    song: "../resources/mp3/jodye.mp3",
     choices: ["7,8,9", "suck a nigga dick, no foreplay, all day","come suck a dick"
     ,"Boomin' out the trap through the hallway"],
     correctAnswer: 1
@@ -12,7 +12,7 @@
     I got niggas that'll still try fuckin me over, \
     I got rap niggas that I gotta act like I like, \
     _____",
-    song: "../resources/energy.mp3",
+    song: "../resources/mp3/energy.mp3",
     choices: ["But y'all don't wanna see Win Win, 50 or Whoa", "Bout to call your ass a Uber, I got somewhere to be",
       "But I got bitches askin me about the code for the Wi-Fi","But my actin' days are over, fuck them niggas for life"],
     correctAnswer: 3
@@ -21,18 +21,27 @@
     I paid for the bed and never even slept in it, \
     I paid for that crib I never stepped foot in, \
     _______",
-    song: "../resources/babyblue.mp3",
+    song: "../resources/mp3/babyblue.mp3",
     choices: ["And now somebody else is in there poopin", "And now my dashboard wooden",
       "And now somebody else is eating all the pudding","And now we out here cookin"],
     correctAnswer: 2
   }, {
-    question: "What is 1*7?",
-    choices: [4, 5, 6, 7, 8],
-    correctAnswer: 3
+    question: "I get this motherfucker jumpin' bitch you know why I came, \
+      They told me Thou Shalt not kill when I jumped in the flame, \
+      I'm cocoo for the cocoa leaves and I turned it to dope, \
+      The money never grew on trees but _________",
+    song: "../resources/mp3/dope.mp3",
+    choices: ["you might find me slappin' bones", "We talkin' cold watchin' hoes",
+      "I'm watching it grow", "us lil' niggas love gold chains"],
+    correctAnswer: 2
   }, {
-    question: "What is 8*8?",
-    choices: [20, 30, 40, 50, 64],
-    correctAnswer: 4
+    question: "I just fucked your bitch in some Gucci flip flops, \
+      I just had some bitches and I made 'em lip lock, \
+      I just took a piss and _________",
+    song: "../resources/mp3/drought.mp3",
+    choices: ["I seen codeine coming out", "choose the dirty over you",
+      "thought it was a drought", "had to make me a cot"],
+    correctAnswer: 0
   }];
 
   var questionCounter = 0; //Tracks question number
@@ -55,7 +64,7 @@
 
     // If no user selection, progress is stopped
     if (isNaN(selections[questionCounter])) {
-      alert('Please make a selection!');
+      alert('Choose goddamn answer!');
     } else {
       questionCounter++;
       displayNext();

@@ -2,6 +2,14 @@ body {
     background-color: black;
 }
 
+@font-face {
+  font-family: 'afta_sansregular';
+  src: url('../resources/fonts/aftasansthin-regular-webfont.woff2') format('woff2'),
+       url('../resources/fonts/aftasansthin-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 .outer {
     display: table;
     position: absolute;
@@ -31,6 +39,7 @@ body {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+    font-family: 'afta_sansregular';
 }
 
 .buttonHolder {
@@ -49,5 +58,5 @@ img {
 }
 
 h1 {
-  font-family:fantasy;
+  font-family: 'afta_sansregular';
 }

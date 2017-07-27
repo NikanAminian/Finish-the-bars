@@ -112,3 +112,12 @@ a {
   width:100%;
   text-align:center
 }
+
+img {
+  display: block;
+  margin: auto;
+  width: 450px;
+  height: auto;
+  padding-top: 15%;
+  padding-left: 10%;
+}
